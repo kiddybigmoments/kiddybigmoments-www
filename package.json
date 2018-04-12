@@ -6,7 +6,6 @@
     "scripts": {
       "build": "gulp",
       "dev": "gulp dev",
-      "start": "gulp prod",
       "postinstall": "npm run build"
     },
     "keywords": [
