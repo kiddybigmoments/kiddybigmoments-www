@@ -3,6 +3,12 @@
     "name": "kiddybigmoments",
     "version": "4.0.0",
     "description": "An utility for parents with kids.",
+    "scripts": {
+      "build": "gulp",
+      "dev": "gulp dev",
+      "start": "gulp prod",
+      "postinstall": "npm run build"
+    },
     "keywords": [
         "css",
         "sass",
@@ -19,7 +25,9 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "Veronica Serna (http://cookyourweb.com/)", "Fede"
+        "Veronica Serna (http://cookyourweb.com/)",
+        "Fede",
+        "Pablo Varela (https://pablo.life)"
     ],
 
     "dependencies": {
